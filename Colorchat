@@ -1,0 +1,13 @@
+name: ColorChat
+version: 1.0
+main: com.example.colorchat.Main
+commands:
+  chatcolor:
+    description: Установить цвет чата
+    usage: /chatcolor <цвет>
+  reload:
+    description: Перезагрузить конфиг плагина
+    usage: /reload
+permissions:
+  colorchat.reload:
+    description: Разрешить пользователю перезагружать плагин
